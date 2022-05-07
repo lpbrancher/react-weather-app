@@ -56,7 +56,7 @@ function App() {
     <div className="App light">
       <div className='app-header'>
         <div className='logo-container'>
-          <i class="logo fa-solid fa-poo-storm"></i>
+          <i className="logo fa-solid fa-poo-storm"></i>
           <h1>weather.app</h1>
         </div>
         <div className='settings-container'>
@@ -81,7 +81,9 @@ function App() {
         
            
        </div> 
+       <h2>The weather, right now:</h2>       
       <Weather key={locale} local={locale} />
+      <h2>Future forecast:</h2>
       <Forecast key={locale *2} local={locale} />
 
       <div className='modal'>
@@ -94,7 +96,7 @@ function App() {
 
       <div title='See on Github' className='github-container'>
         <a target='_blank' href='https://github.com/criptoluiz'>
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
       </div>
     </div>
