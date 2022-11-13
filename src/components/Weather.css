@@ -57,7 +57,7 @@ p {
 
 @media (max-height: 800px){
   .weather-container {
-    padding: 1em 0.5em;
+    padding: 1em 1.5em;
     margin: 20px auto;
     display: flex;
     width: 450px;

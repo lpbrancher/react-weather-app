@@ -2,9 +2,14 @@
   transition-duration: .3s;
 }
 
+body {
+  background-image: url("https://source.unsplash.com/1920x1080/?wallpaper nature city");
+  background-position: center;
+  overflow: hidden;
+}
 .App {
   min-height: 100vh;
-  background-color: rgb(235,235,235);
+  background: rgba(235,235,235, .5);
 }
 
 h2 {
@@ -31,7 +36,7 @@ h2 {
 }
 
 .App.dark {
-  background-color: #282c34;
+  background-color: #282c3450;
   color: white;
 }
 

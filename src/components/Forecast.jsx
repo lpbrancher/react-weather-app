@@ -51,9 +51,9 @@ function Forecast(props) {
         setTemp3(Math.round(resultArray[2].main.temp))
         setDesc3(resultArray[2].weather[0].description)
         
-        setDate(resultArray[0].dt_txt)
-        setDate2(resultArray[1].dt_txt)
-        setDate3(resultArray[2].dt_txt)
+        setDate(resultArray[0].dt_txt.split(' ')[0].replace(/e|-/g, '/').split("/").reverse().join("/"))
+        setDate2(resultArray[1].dt_txt.split(' ')[0].replace(/e|-/g, '/').split("/").reverse().join("/"))
+        setDate3(resultArray[2].dt_txt.split(' ')[0].replace(/e|-/g, '/').split("/").reverse().join("/"))
       });
   });
 

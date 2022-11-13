@@ -53,7 +53,7 @@ function App() {
   }
 
   return (
-    <div className="App light">
+    <div className="App dark">
       <div className='app-header'>
         <div className='logo-container'>
           <i className="logo fa-solid fa-poo-storm"></i>

@@ -1,6 +1,6 @@
 .forecast {
   display: flex;
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
   padding: 15px;
   width: 760px;
   justify-content: space-around;
@@ -34,11 +34,10 @@
 
 .forecast-container h1,
 p {
-  margin: 10px auto;
+  margin: 0px auto 10px auto;
 }
 
-.icone {
-  
+.icone {  
   border-radius: 20px;
   height: 100px;
   width: 100px;
@@ -68,6 +67,7 @@ p {
     justify-content: center;
     align-items: center;
     height: unset;
+    flex-direction: column;
   }
 
   .forecast-container h1, p {
